@@ -50,7 +50,6 @@ LIBUNWIND_CPPFLAGS = [
 
 cc_library_static {
     name: "libunwind_llvm",
-    sdclang: true,
     sdk_version: "21",
     vendor_available: true,
     recovery_available: true,
